@@ -5,3 +5,7 @@ Functionality -
 * play sound 
 * play file
 * play youtube url
+
+TODO: 
+* Have endpoints for each different functionality
+* handle slack or json responses better
