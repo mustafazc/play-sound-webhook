@@ -5,6 +5,8 @@ This is a project that is running on a local device and has a webhook exposed (u
 The slack channel can calso call the webhook (using slash commands) with a url that just plays a youtube url.
 The lambda function also shoots a message to a slack channel when the doorbell is pressed. 
 
+Lambda function - https://gist.github.com/mustafazc/03f6bed18823595598c7206f2cb6032d
+
 Functionality - 
 * play sound 
 * play file [TODO]
@@ -13,4 +15,3 @@ Functionality -
 TODO: 
 * Have endpoints for each different functionality
 * Handle slack or json responses better
-* Add lambda function to repository
