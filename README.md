@@ -1,4 +1,6 @@
 # play-sound-webhook
+[![Maintainability](https://api.codeclimate.com/v1/badges/d0c3d0ebf4b0a85ffca7/maintainability)](https://codeclimate.com/github/mustafazc/play-sound-webhook/maintainability)
+
 A nodejs server and app that listens on an endpoint and plays sounds. 
 
 This is a project that is running on a local device and has a webhook exposed (using ngrok) to AWS Lambda that is triggered via an AWS IOT button. The button is used as a doorbell and plays a sound when it is pressed (POST to /play).  
