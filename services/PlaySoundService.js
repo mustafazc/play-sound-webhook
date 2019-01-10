@@ -6,7 +6,7 @@ const Speaker = require('speaker')
 module.exports = {
   play: () => {
     player.play('assets/audio/sample.mp3', (err) => {
-      if (err) console.log('Oops', err)
+      if (err) return Promise.reject(new Error(`Could not play sound: ${err}`))
     })
   },
 
