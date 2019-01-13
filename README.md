@@ -9,11 +9,29 @@ The lambda function also shoots a message to a slack channel when the doorbell i
 
 Lambda function - https://gist.github.com/mustafazc/03f6bed18823595598c7206f2cb6032d
 
-Functionality - 
+### Requirements
+* NodeJS
+
+### Installation
+* Install Dependencies
+```javascript
+npm install
+```
+* For development
+```javascript
+npm run dev
+```
+
+* For production
+```javascript
+npm start
+```
+
+### Current Functionality
 * play sound 
 * play file [TODO]
 * play youtube url
 
-TODO: 
+### Roadmap 
 * Have endpoints for each different functionality
 * Handle slack or json responses better
