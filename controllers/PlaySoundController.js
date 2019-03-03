@@ -4,7 +4,8 @@ module.exports.handle = (req, res) => {
   const body = req.body
 
   if (!body || !body.text) {
-    return PlaySoundService.play().then(() => res.status(200).send({message: 'success'}))
+    return PlaySoundService.play()
+    .then(() => res.status(200).send({message: 'success'}))
   }
   const youtubeUrlRegex = new RegExp(/^(http(s)?:\/\/)?((w){3}.)?youtu(be|.be)?(\.com)?\/.+/)
 
